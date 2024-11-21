@@ -8,6 +8,7 @@ packages:
 snap:
   commands:
     0: [install, kubectl, --classic]
+    1: [install, helm, --classic]    
 
 runcmd:
   # tofu install instructions from https://opentofu.org/docs/intro/install/deb/
